@@ -80,9 +80,8 @@ addToCartButtons.forEach((button) => {
 
     const cartItemHTML = `
       <div class="cart-item">
-          <img class="beans-img" src="${
-            box.querySelector("img").src
-          }" alt="${itemName}">
+          <img class="beans-img" src="${box.querySelector("img").src
+      }" alt="${itemName}">
           <span class="fas fa-times"></span>
           <div class="cart-content">
               <h3>${itemName}</h3>
